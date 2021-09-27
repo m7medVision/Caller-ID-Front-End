@@ -93,7 +93,6 @@
     <option value="IR">Iran 🇮🇷</option>
     <option value="IQ">Iraq 🇮🇶</option>
     <option value="IS">Iceland 🇮🇸</option>
-    <option value="IL">Israel 🇮🇱</option>
     <option value="IT">Italy 🇮🇹</option>
     <option value="JM">Jamaica 🇯🇲</option>
     <option value="JO">Jordan 🇯🇴</option>
@@ -145,6 +144,7 @@
     <option value="NR">Nauru 🇳🇷</option>
     <option value="NZ">New Zealand 🇳🇿</option>
     <option value="OM">Oman 🇴🇲</option>
+    <option value="IL">Occupied Arab lands 🇵🇸</option>
     <option value="PK">Pakistan 🇵🇰</option>
     <option value="PA">Panama 🇵🇦</option>
     <option value="PE">Peru 🇵🇪</option>
