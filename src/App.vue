@@ -217,13 +217,11 @@
         <thead>
           <tr class=" text-sm font-medium text-gray-700 text-left" style="font-size: 0.9674rem">
             <th> {{ Name }} </th>
-            <th class="px-12" >{{ Spam }}</th>
           </tr>
         </thead>
         <tbody v-for="item in json" :key="item.Name" class="text-sm font-normal text-gray-700">
           <tr class="hover:bg-gray-100 border-b border-gray-200 py-10">
             <td class="px-4 py-4">{{ item.Name }}</td>
-            <td class="px-4 py-4">{{ item.isItSpam }}</td>
           </tr>
         </tbody>
       </table>
