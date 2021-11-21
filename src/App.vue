@@ -225,6 +225,7 @@
           </tr>
         </tbody>
       </table>
+    <div class="">{{  }}</div>
   <div id="2001"></div>
 </template>
 
@@ -236,18 +237,21 @@ export default {
     return {
       Spam: null,
       Name: null,
-      json: null
+      json: null,
+      error: null,
     }
   },
   methods: {
-    get () {
+    get() {
       fetch(`https://majhcc.pw/api/callerID/${this.ch}/${this.num}/`)
         .then(response => response.json())
         .then(data => {
           this.json = data
           this.Name = 'Name'
-          this.Spam = 'is It Spam'
+          this.error = ''
           console.log(this.json)
+        }).catch(error => {
+          this.error = 'No results found'
         })
     }
   }
